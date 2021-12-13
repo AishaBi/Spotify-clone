@@ -1,8 +1,8 @@
 //playing logic
 import { useEffect } from "react";
 import { signIn, useSession } from "next-auth/react";
-import spotifyApi from "../../../../lib/spotify";
-import SpotifyWebApi from "spotify-web-api-js";
+//import spotifyApi from "../../../../lib/spotify";
+import SpotifyWebApi from "spotify-web-api-node";
 
 const spotifyApi = new SpotifyWebApi({
     clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
