@@ -43,9 +43,6 @@ function Song({order, track}) {
             <p>{millisToMinutesAndSeconds(track.track.duration_ms)}</p>
         </div>
         </div>
-        
-
-
     );
 }
 
